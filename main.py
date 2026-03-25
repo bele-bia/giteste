@@ -2,6 +2,15 @@ import streamlit as st
 
 st.set_page_config(page_title="Sistema Comercial", page_icon="🏢")
 
+# Oculta o menu, o rodapé e o botão Deploy
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            .stDeployButton {display:none;}
+            header {visibility: hidden;}
+            </style>
+            """
 st.title("🏢 Painel Comercial Principal")
 st.markdown("---")
 
