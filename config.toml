@@ -1,12 +1,2 @@
 [client]
-showSidebarNavigation = false # Opcional: esconde o menu lateral padrão
-
-[runner]
-fastReruns = true
-
-[ui]
-hideSidebarNav = true # Opcional
-
-# ESTE É O COMANDO CHAVE PARA OCULTAR O MENU "MANAGE APP"
-[theme]
-footer = "hidden"
+toolbarMode = "viewer"
