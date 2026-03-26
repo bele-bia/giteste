@@ -1,7 +1,14 @@
 import streamlit as st
 
-# Força o modo de visualização, escondendo o Manage App
-st.set_option('client.toolbarMode', 'viewer')
+# Ocultar menu, rodapé e botão de deploy
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            .stDeployButton {display:none;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.set_page_config(page_title="Sistema Comercial", page_icon="🏢")
 
