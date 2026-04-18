@@ -11,7 +11,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-Conexão
+# Conexão
 SUPABASE_URL = st.secrets["SUPABASE_URL"]
 SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
