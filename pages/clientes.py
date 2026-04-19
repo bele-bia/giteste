@@ -5,7 +5,7 @@ import pandas as pd
 # --- ESTILIZAÇÃO VERDE ---
 st.markdown("""
     <style>
-    .stApp {background-color: #84a3bf;}
+    .stApp {background-color: #8ed0a8;}
     h1, h2, h3 {color: #006400;}
     .stButton>button {background-color: #228B22; color: white;}
     </style>
