@@ -20,7 +20,7 @@ st.title("👤 Cadastro de Clientes")
 
 with st.form("form_cliente"):
     nome = st.text_input("Nome do Cliente"); email = st.text_input("Email")
-    email = st.text_input("Email"); nome = st.text_input("Nome do Cliente")
+    email1 = st.text_input("Email"); nome1 = st.text_input("Nome do Cliente")
     submit = st.form_submit_button("Cadastrar")
 
     if submit:
